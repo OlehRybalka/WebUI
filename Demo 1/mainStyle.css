@@ -1,0 +1,78 @@
+body { background:rgb(30,30,40); font-family: monospace;}
+form {     max-width: 420px;margin: -15px auto; }
+h1{
+    color: #fff;
+    margin: 40px 37%;
+    text-transform: uppercase;
+    font-size: 2.5rem;
+    text-align: center;
+}
+div{
+    border: 2px solid #DF0101;
+    background: #fff;
+    margin-top: 5px;
+    font-size: 25px;
+    padding-left: 5px;
+    border-radius: 5px;
+}
+.nextPrev{
+    margin-left: 47%;
+    background: none;
+    border: none; 
+}
+a{
+    font-size: 60px;
+    color: red;
+    text-decoration: none;
+}
+a:hover{
+    cursor: pointer;
+}
+
+button{
+    margin: 1px;
+}
+
+[type="text"] {
+  color:white;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight:500;
+  font-size: 18px;
+  border-radius: 5px;
+  line-height: 22px;
+  background-color: transparent;
+  border:2px solid #CC6666;
+  transition: all 0.3s;
+  padding: 13px;
+  margin-bottom: 15px;
+  width:100%;
+  box-sizing: border-box;
+  outline:0;
+}
+
+[type="text"]:focus { border:2px solid #DF0101; }
+
+[type="button"] {
+  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+  width: 100%;
+  background:#CC6666;
+  border-radius:5px;
+  border:0;
+  cursor:pointer;
+  color:white;
+  font-size:24px;
+  padding-top:10px;
+  padding-bottom:10px;
+  transition: all 0.3s;
+  margin-top:-4px;
+  font-weight:700;
+}
+
+[type="button"]:hover { background:#DF0101; }
+
+.add{
+    background: #8A0868;
+    margin-bottom: 10px;
+}
+
+.add:hover { background: #610B4B; }
